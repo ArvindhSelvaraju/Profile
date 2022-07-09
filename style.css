@@ -1,0 +1,117 @@
+*{
+    margin: 10;
+    text-decoration: none;
+    text-underline-offset: 12px;
+}
+#header{
+    background: linear-gradient(to left,white,#6a6a6a);
+}
+h1{
+    margin: 30px;
+    font-size: 80px;
+    color: white;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60%;
+    font-size: 35px;
+    list-style: none;
+    font-weight:bold;
+}
+button{
+    font-size: 35px;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 15px 15px 15px 15px;
+    font-weight: bold;
+    border: 6px solid skyblue;
+}
+#photo{
+    border-radius: 100%;
+    transform: translate(30px,-100px);
+}
+#about{
+    font-size: 80px;
+}
+#hello{
+    font-size: 80px;
+    color: ivory;
+    transform: translate(550px,-300px);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#aboutcontent{
+    padding-left: 10%;
+    font-size: 80px;
+
+}
+#line{
+    width: 75%;
+    height: 10px;
+    background: linear-gradient(to right,black,white,black);
+}
+#school{
+    list-style: none;
+    font-size: 70px;
+}
+#line1{
+    height: 10px;
+    background: linear-gradient(to right,black,white,black);
+}
+#skilltitle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: midnightblue;
+    font-weight: bolder;
+    font-size: 80px;
+}
+#line2{
+    width: 60%;
+    height: 0.3cm;
+    background-color:lightgreen;
+}
+#skills{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    background-image: linear-gradient(to right ,pink,#d683a6,#c577c7);
+    padding-top: 10px;
+}
+progress[value]{
+    height: 70px;
+    width: 600px;
+}
+#line3{
+    width: 75%;
+    height: 10px;
+    background: linear-gradient(to right,black,white,black);
+}
+#work{
+    font-size: 80px;
+    text-align: center;
+    padding-bottom: 2in;
+}
+#worktext{
+    font-size: 70px;
+}
+#resume{
+    color: aqua;
+    font-size: 70px;
+}
+#resumepdf{
+    font-size: 60px;
+}
+#contact{
+    font-size: 35px;
+    background-color: whitesmoke;
+}
+#img{
+    padding-left: 30%;
+}
+#contactinfo{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+    padding-right: 70%;
+}
+
